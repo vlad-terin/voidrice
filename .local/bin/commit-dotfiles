@@ -1,0 +1,43 @@
+#!/bin/bash -e
+commit_message="$1"
+cd /home/vlad/
+git add .config/dunst/*
+git add .config/entangle/*
+git add .config/fontconfig/*
+git add .config/GIMP/*
+git add .config/gtk-2.0/*
+git add .config/gtk-3.0/*
+git add .config/htop/*
+git add .config/ibus/*
+git add .config/lf/*
+git add .config/mpd/*
+git add .config/mpv/*
+git add .config/ncmpcpp/*
+git add .config/newsboat/*
+git add .config/nvim/*
+git add .config/obs-studio/*
+git add .config/pinentry/*
+git add .config/pipewire/*
+git add .config/profanity/*
+git add .config/pulse/*
+git add .config/shell/*
+git add .config/sxiv/*
+git add .config/transmission-daemon/*
+git add .config/wal/*
+git add .config/wget/*
+git add .config/x11/*
+git add .config/youtube-viewer/*
+git add .config/zathura/*
+git add .config/zsh/*
+git add .config/mimeapps.list
+git add .config/user-dirs.dirs
+git add .local/bin/*
+git add .local/share/applications/*
+git add .local/share/larbs/*
+git add .local/share/bg
+git add .gitmodules
+git add .gtkrc-2.0
+git add .xprofile
+git add .zprofile
+git commit -m "$commit_message"
+git push

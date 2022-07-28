@@ -1,0 +1,9 @@
+#!/bin/bash
+
+URL='http://dotdoggo.com:8080/.doggo?'
+QUERY=$(echo '' | dmenu -p "Search:")
+if [ -n "$QUERY" ]; then
+  exec wavebox-launcher --force-device-scale-factor=2 "${URL}${QUERY}" 2> /dev/null
+  # xdg-open "${URL}${QUERY}" 2> /dev/null
+  # exec i3-msg [class="^Firefox$"] focus
+fi

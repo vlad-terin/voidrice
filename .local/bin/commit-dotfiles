@@ -37,7 +37,7 @@ git add .local/share/larbs/*
 git add .local/share/bg
 git add .gitmodules
 git add .gtkrc-2.0
-git add .xprofile
-git add .zprofile
+git add ~/.xprofile
+git add ~/.zprofile
 git commit -m "$commit_message"
 git push

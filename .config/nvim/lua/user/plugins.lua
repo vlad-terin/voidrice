@@ -84,6 +84,7 @@ return packer.startup(function(use)
   use({ "hrsh7th/cmp-nvim-lsp", commit = "affe808a5c56b71630f17aa7c38e15c59fd648a8" })
   use({ "hrsh7th/cmp-nvim-lua", commit = "d276254e7198ab7d00f117e88e223b4bd8c02d21" })
   use({ "hrsh7th/cmp-emoji" })
+  use({ "hrsh7th/cmp-copilot" })
 
   -- snippets
   use({ "L3MON4D3/LuaSnip", commit = "79b2019c68a2ff5ae4d732d50746c901dd45603a" }) --snippet engine
@@ -106,9 +107,8 @@ return packer.startup(function(use)
   -- Git
   use({ "lewis6991/gitsigns.nvim", commit = "c18e016864c92ecf9775abea1baaa161c28082c3" })
 
-  -- Copilot
+  --Copilot
   use { "github/copilot.vim" }
-
   use {
     "zbirenbaum/copilot.lua",
     event = { "VimEnter" },

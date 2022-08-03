@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/vlad/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
+  ["cmp-copilot"] = {
+    loaded = true,
+    path = "/home/vlad/.local/share/nvim/site/pack/packer/start/cmp-copilot",
+    url = "https://github.com/hrsh7th/cmp-copilot"
+  },
   ["cmp-emoji"] = {
     loaded = true,
     path = "/home/vlad/.local/share/nvim/site/pack/packer/start/cmp-emoji",

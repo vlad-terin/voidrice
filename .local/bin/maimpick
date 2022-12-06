@@ -13,6 +13,7 @@ case "$(printf "a selected area\\ncurrent window\\nfull screen\\na selected area
     "current window") maim -q -d 0.2 -i "$(xdotool getactivewindow)" pic-window-"${output}" ;;
     "full screen") maim -q -d 0.2 pic-full-"${output}" ;;
     "a selected area (copy)") maim -s | ${xclip_cmd} ;;
+    "a selected area (thumbnail)") maim -s -g 320x320 | ${xclip_cmd} ;;
     "current window (copy)") maim -q -d 0.2 -i "$(xdotool getactivewindow)" | ${xclip_cmd} ;;
     "full screen (copy)") maim -q -d 0.2 | ${xclip_cmd} ;;
 esac

@@ -10,6 +10,8 @@ end
 
 require("luasnip/loaders/from_vscode").lazy_load()
 
+luasnip.filetype_extend("javascript", {"next", "react"})
+
 local check_backspace = function()
   local col = vim.fn.col "." - 1
   return col == 0 or vim.fn.getline("."):sub(col, col):match "%s"
@@ -58,13 +60,13 @@ cmp.setup {
     ["<C-f>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
     ["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
     ["<C-y>"] = cmp.config.disable, -- Specify `cmp.config.disable` if you want to remove the default `<C-y>` mapping.
-    ["<C-e>"] = cmp.mapping {
+    ["<C-c>"] = cmp.mapping {
       i = cmp.mapping.abort(),
       c = cmp.mapping.close(),
     },
     -- Accept currently selected item. If none selected, `select` first item.
     -- Set `select` to `false` to only confirm explicitly selected items.
-    ["<CR>"] = cmp.mapping.confirm { select = true },
+    ["<CR>"] = cmp.mapping.confirm { select = false },
     ["<Tab>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
@@ -101,10 +103,10 @@ cmp.setup {
       vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
       -- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
       vim_item.menu = ({
+        luasnip = "[Snippet]",
         copilot = "[Copilot]",
         nvim_lsp = "[LSP]",
         nvim_lua = "[LUA]",
-        luasnip = "[Snippet]",
         buffer = "[Buffer]",
         path = "[Path]",
         emoji = "Emoji",
@@ -113,7 +115,13 @@ cmp.setup {
     end,
   },
   sources = {
-    { name = "copilot" },
+    { name = "copilot",
+      max_item_count = 3,
+      trigger_characters = {
+        { ".", ":", "(", "'", '"', "[", ",", "#", "*", "@", "|", "=", "-", "{", "/", "\\", "+", "?" },
+      },
+      group_index = 2
+    },
     { name = "nvim_lsp" },
     { name = "nvim_lua" },
     { name = "luasnip" },

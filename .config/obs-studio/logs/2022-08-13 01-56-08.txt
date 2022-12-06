@@ -1,0 +1,70 @@
+01:56:08.577: ================================
+01:56:08.577: Warning: OBS is already running!
+01:56:08.577: ================================
+01:56:08.577: User is now running multiple instances of OBS!
+01:56:08.591: CPU Name: Intel(R) Core(TM) i9-10850K CPU @ 3.60GHz
+01:56:08.591: CPU Speed: 4923.493MHz
+01:56:08.591: Physical Cores: 10, Logical Cores: 20
+01:56:08.591: Physical Memory: 32020MB Total, 27737MB Free
+01:56:08.591: Kernel Version: Linux 5.18.16-arch1-1
+01:56:08.591: Distribution: "Arch Linux" Unknown
+01:56:08.591: Session Type: tty
+01:56:08.591: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+01:56:08.592: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+01:56:08.592: Portable mode: false
+01:56:08.605: OBS 27.2.4-2 (linux)
+01:56:08.605: ---------------------------------
+01:56:08.605: ---------------------------------
+01:56:08.605: audio settings reset:
+01:56:08.605: 	samples per sec: 48000
+01:56:08.605: 	speakers:        2
+01:56:08.606: ---------------------------------
+01:56:08.606: Initializing OpenGL...
+01:56:08.688: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3080/PCIe/SSE2
+01:56:08.688: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.65.01, shading language 3.30 NVIDIA via Cg compiler
+01:56:08.730: ---------------------------------
+01:56:08.730: video settings reset:
+01:56:08.730: 	base resolution:   4096x2160
+01:56:08.730: 	output resolution: 4096x2160
+01:56:08.730: 	downscale filter:  Bicubic
+01:56:08.730: 	fps:               60/1
+01:56:08.730: 	format:            NV12
+01:56:08.730: 	YUV mode:          709/Partial
+01:56:08.730: NV12 texture support not available
+01:56:08.730: Audio monitoring device:
+01:56:08.730: 	name: Default
+01:56:08.730: 	id: default
+01:56:08.731: ---------------------------------
+01:56:08.732: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:56:08.733: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:56:08.778: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:56:08.778: No blackmagic support
+01:56:08.783: NVENC supported
+01:56:08.783: FFMPEG VAAPI supported
+01:56:08.787: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+01:56:08.787: 
+01:56:08.787: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+01:56:08.787: ---------------------------------
+01:56:08.787:   Loaded Modules:
+01:56:08.787:     text-freetype2.so
+01:56:08.787:     rtmp-services.so
+01:56:08.787:     obs-x264.so
+01:56:08.787:     obs-transitions.so
+01:56:08.787:     obs-outputs.so
+01:56:08.787:     obs-libfdk.so
+01:56:08.787:     obs-filters.so
+01:56:08.787:     obs-ffmpeg.so
+01:56:08.787:     linux-v4l2.so
+01:56:08.787:     linux-pulseaudio.so
+01:56:08.787:     linux-jack.so
+01:56:08.787:     linux-decklink.so
+01:56:08.787:     linux-capture.so
+01:56:08.787:     linux-alsa.so
+01:56:08.787:     image-source.so
+01:56:08.787:     frontend-tools.so
+01:56:08.787:     decklink-ouput-ui.so
+01:56:08.787:     decklink-captions.so
+01:56:08.787: ---------------------------------
+01:56:08.787: ==== Startup complete ===============================================
+01:56:08.816: All scene data cleared
+01:56:08.816: ------------------------------------------------

@@ -20,4 +20,5 @@ require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
 require "user.icons"
-
+require "user.nvim-ufo"
+require "user.luasnip"

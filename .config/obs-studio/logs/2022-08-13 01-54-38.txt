@@ -1,0 +1,66 @@
+01:54:38.794: CPU Name: Intel(R) Core(TM) i9-10850K CPU @ 3.60GHz
+01:54:38.794: CPU Speed: 5200.000MHz
+01:54:38.795: Physical Cores: 10, Logical Cores: 20
+01:54:38.795: Physical Memory: 32020MB Total, 28405MB Free
+01:54:38.795: Kernel Version: Linux 5.18.16-arch1-1
+01:54:38.795: Distribution: "Arch Linux" Unknown
+01:54:38.795: Session Type: tty
+01:54:38.795: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+01:54:38.795: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+01:54:38.795: Portable mode: false
+01:54:38.831: OBS 27.2.4-2 (linux)
+01:54:38.831: ---------------------------------
+01:54:38.831: ---------------------------------
+01:54:38.831: audio settings reset:
+01:54:38.831: 	samples per sec: 48000
+01:54:38.831: 	speakers:        2
+01:54:38.832: ---------------------------------
+01:54:38.832: Initializing OpenGL...
+01:54:38.926: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3080/PCIe/SSE2
+01:54:38.926: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.65.01, shading language 3.30 NVIDIA via Cg compiler
+01:54:38.932: ---------------------------------
+01:54:38.932: video settings reset:
+01:54:38.932: 	base resolution:   4096x2160
+01:54:38.932: 	output resolution: 4096x2160
+01:54:38.932: 	downscale filter:  Bicubic
+01:54:38.932: 	fps:               60/1
+01:54:38.932: 	format:            NV12
+01:54:38.932: 	YUV mode:          709/Partial
+01:54:38.932: NV12 texture support not available
+01:54:38.932: Audio monitoring device:
+01:54:38.932: 	name: Default
+01:54:38.932: 	id: default
+01:54:38.932: ---------------------------------
+01:54:38.934: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:54:38.934: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:54:38.980: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:54:38.980: No blackmagic support
+01:54:38.984: NVENC supported
+01:54:38.984: FFMPEG VAAPI supported
+01:54:38.988: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+01:54:38.988: 
+01:54:38.988: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+01:54:38.988: ---------------------------------
+01:54:38.988:   Loaded Modules:
+01:54:38.988:     text-freetype2.so
+01:54:38.988:     rtmp-services.so
+01:54:38.988:     obs-x264.so
+01:54:38.988:     obs-transitions.so
+01:54:38.988:     obs-outputs.so
+01:54:38.988:     obs-libfdk.so
+01:54:38.988:     obs-filters.so
+01:54:38.988:     obs-ffmpeg.so
+01:54:38.988:     linux-v4l2.so
+01:54:38.988:     linux-pulseaudio.so
+01:54:38.988:     linux-jack.so
+01:54:38.988:     linux-decklink.so
+01:54:38.988:     linux-capture.so
+01:54:38.988:     linux-alsa.so
+01:54:38.988:     image-source.so
+01:54:38.988:     frontend-tools.so
+01:54:38.988:     decklink-ouput-ui.so
+01:54:38.988:     decklink-captions.so
+01:54:38.988: ---------------------------------
+01:54:38.989: ==== Startup complete ===============================================
+01:54:39.000: All scene data cleared
+01:54:39.000: ------------------------------------------------
